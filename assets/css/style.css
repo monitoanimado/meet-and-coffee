@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    color: #000f08;
+    font-family: Open Sans; 
+}
+
+/* Navbar */
+
+nav {
+    background-color: #000F08;
+    color: white;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 25px;
+}
+
+nav li {
+     display: inline-block;
+     vertical-align: middle;
+     margin-right: 60px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+header {
+    text-align: right;
+    background-image: url("../img/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-shadow: 0px 3px 6px #00000080;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* Ubicación */
+
+#Ubicacion {
+    padding: 150px;
+} 
+
+#Ubicacion h2 {
+    font-size:  45px;
+    margin: 40px 0px 20px 0px;
+}
+
+#Ubicacion p {
+    font-size:  25px ;
+}
+
+/* Próxima Charla */
+
+#Proxima-Charla {
+    background: #A4452C;
+    padding: 100px;
+    color: white;
+}
+
+#Proxima-Charla img {
+    height: 400px;
+}
+
+#Proxima-Charla img, 
+.texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#Proxima-Charla .texto {
+    text-align: left;
+    width: 40%;
+    margin-left: 40px;
+}
+
+#Proxima-Charla .texto h3 {
+    font-size: 45px;
+}
+
+#Proxima-Charla .texto h4 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#Proxima-Charla .texto h6 {
+    font-size: 33px;
+}
+
+#Proxima-Charla .texto span {
+    font-size: 20px;
+} 
+
+#Proxima-Charla .texto p {
+    font-size: 25px;
+}
+
+#Proxima-Charla .texto h6, 
+span, 
+p {
+    font-weight: 400;
+}
+
+/* Eventos anteriores */
+
+#Eventos {
+    padding: 100px;
+}
+
+#Eventos h2 {
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+#Eventos article {
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 35px;
+}
+
+#Eventos article img {
+    margin-bottom: 45px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000F08;
+    color: white;
+    padding: 120px 100px 100px 100px;
+}
+
+footer a {
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 40px;
+}
+
